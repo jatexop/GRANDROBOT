@@ -141,12 +141,12 @@ def start(bot: Bot, update: Update, args: List[str]):
                 PM_START_TEXT.format(escape_markdown(first_name), escape_markdown(bot.first_name), OWNER_ID),
                 parse_mode=ParseMode.MARKDOWN, reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="🤝HELP🤝",
                                                                        callback_data="help_back".format(bot.username)),
-                                                                                   InlineKeyboardButton(text="🧑‍💻BOSS🧑‍💻",
+                                                                                   InlineKeyboardButton(text="🧑‍💻CREATOR🧑‍💻",
                                                                        url="t.me/jatexop")],
                                                                                    [InlineKeyboardButton(text="ADD ME TO YOUR GROUP",
                                                                        url="t.me/{}?startgroup=true".format(bot.username)),
-                                                                                   InlineKeyboardButton(text="🔥🔥🔥",
-                                                                       url="https://telegra.ph/file/52ff455979289b8d35fa6.jpg")
+                                                                                   InlineKeyboardButton(text="SOURCE CODE",
+                                                                       url="https://github.com/legendx22/GRANDROBOT")
                                                                                  ]]))
 
     else:
